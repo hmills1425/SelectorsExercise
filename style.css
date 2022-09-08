@@ -1,0 +1,98 @@
+/* 1 */
+body{
+    background-color: #ced4d8;
+}
+
+/* 2 */
+h1{
+    color: #ac6ac7;
+}
+
+/* 3 */
+h2{
+    color: rgb(255, 165, 0);
+}
+
+/* 4 */
+li{
+    color: blue;
+}
+
+/* 5 */
+p{
+    background-color: gold;
+}
+
+/* 6 */
+[type="text"]
+[type="email"] {
+    border: 5px dotted pink;
+}
+
+/* 7 */
+.first{
+    background-color: #fff;
+}
+
+/* 8 */
+#important {
+    border: 3px dashed #0000ff;
+}
+
+/* 9 */
+div>p{
+    font-size: 30px;
+}
+
+/* 10 */
+input[type="email"] {
+    background-color: #808080;
+}
+
+
+/* 11 */
+div:nth-of-type(3) p{
+    background-color: hotpink;
+}
+
+/* 12 */
+div:nth-of-type(3) p:nth-of-type(2) {
+    border: 7px solid rgb(255, 255, 255)
+}
+
+/* 13 */
+em {
+    color: seashell;
+    font: 25px;
+}
+
+
+/* BONUS */
+/* 1 */
+input:check {
+    margin-left: 40px;
+}
+
+/* 2 */
+label {
+    text-transform: lowercase;
+}
+
+/* 3 */
+#important::first-letter {
+    font-size: 90px;
+    color: lightgreen;
+}
+
+/* 4 */
+h1:hover {
+    color: navy;
+}
+
+/* 5 */
+a:visited {
+    color: silver;
+}
+
+
+
